@@ -43,7 +43,7 @@
       <!--breadcrumbs-->
       <div class="px-2 flex items-center">
         <div class="py-4 overflow-auto whitespace-nowrap flex items-center">
-          <a class="text-gray-600 hover:text-gray-900" href="#">
+          <a class="text-gray-600 hover:text-gray-900 transition-all duration-300" href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -75,7 +75,7 @@
               />
             </svg>
           </span>
-          <a class="text-gray-600 hover:text-gray-900" href="#">News</a>
+          <a class="text-gray-600 hover:text-gray-900 transition-all duration-300" href="#">News</a>
           <span class="mx-2 text-gray-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@
               />
             </svg>
           </span>
-          <a class="text-gray-600 hover:text-gray-900" href="#">Tech</a>
+          <a class="text-gray-600 hover:text-gray-900 transition-all duration-300" href="#">Tech</a>
         </div>
       </div>
       <!--banners-->
@@ -107,6 +107,13 @@
             <h2 class="text-4xl font-semibold text-gray-100 leading-tight">
               Lorem ipsum dolor sit amet consectetur.
             </h2>
+            <div class="flex mt-3">
+              <img class="h-10 w-10 rounded-full mr-2 object-cover" src="https://randomuser.me/api/portraits/men/73.jpg" alt="author">
+              <div>
+                <p class="font-semibold text-gray-200 text-sm">John Doe</p>
+                <time class="text-gray-400 text-xs">25 February</time>
+              </div>
+            </div>
           </div>
         </a>
         <a
@@ -119,6 +126,13 @@
             <h2 class="text-4xl font-semibold text-gray-100 leading-tight">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </h2>
+            <div class="flex mt-3">
+              <img class="h-10 w-10 rounded-full mr-2 object-cover" src="https://randomuser.me/api/portraits/men/77.jpg" alt="author">
+              <div>
+                <p class="font-semibold text-gray-400 text-sm">Mathe Ckonle</p>
+                <time class="text-gray-400 text-xs">25 February</time>
+              </div>
+            </div>
           </div>
         </a>
       </section>
@@ -128,9 +142,9 @@
           <section class="px-2">
             <a class="block w-full lg:flex mb-10" href="#">
               <img class="w-full h-48 lg:w-48 opacity-80 object-cover lg:mr-4" src="/public/images/03.jpg" alt="img">
-              <div class="flex">
+              <div class="flex flex-col justify-between">
                 <div>
-                  <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">
+                  <h3 class="mb-2 text-gray-700 font-bold text-2xl">
                     What is Lorem Ipsum?
                   </h3>
                   <p class="text-gray-700">
@@ -141,13 +155,20 @@
                     type specimen book.
                   </p>
                 </div>
+                <div class="flex mt-3">
+                  <img class="h-10 w-10 rounded-full mr-2 object-cover" src="https://randomuser.me/api/portraits/women/77.jpg" alt="author">
+                  <div>
+                    <p class="font-semibold text-gray-400 text-sm">Mathe Ckonle</p>
+                    <time class="text-gray-400 text-xs">21 February</time>
+                  </div>
+                </div>
               </div>
             </a>
             <a class="block w-full lg:flex mb-10" href="#">
               <img class="w-full h-48 lg:w-48 opacity-80 object-cover lg:mr-4" src="/public/images/04.jpg" alt="img">
-              <div class="flex">
+              <div class="flex flex-col justify-between">
                 <div>
-                  <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">
+                  <h3 class="mb-2 text-gray-700 font-bold text-2xl">
                     Why do we use it?
                   </h3>
                   <p class="text-gray-700">
@@ -159,13 +180,20 @@
                     readable English.
                   </p>
                 </div>
+                <div class="flex mt-3">
+                  <img class="h-10 w-10 rounded-full mr-2 object-cover" src="https://randomuser.me/api/portraits/men/80.jpg" alt="author">
+                  <div>
+                    <p class="font-semibold text-gray-400 text-sm">Mathe Ckonle</p>
+                    <time class="text-gray-400 text-xs">20 February</time>
+                  </div>
+                </div>
               </div>
             </a>
             <a class="block w-full lg:flex mb-10" href="#">
               <img class="w-full h-48 lg:w-48 opacity-80 object-cover lg:mr-4" src="/public/images/05.jpg" alt="img">
-              <div class="flex">
+              <div class="flex flex-col justify-between">
                 <div>
-                  <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">
+                  <h3 class="mb-2 text-gray-700 font-bold text-2xl">
                     Where does it come from?
                   </h3>
                   <p class="text-gray-700">
@@ -173,11 +201,15 @@
                     text. It has roots in a piece of classical Latin literature
                     from 45 BC, making it over 2000 years old. Richard
                     McClintock, a Latin professor at Hampden-Sydney College in
-                    Virginia, looked up one of the more obscure Latin words,
-                    consectetur, from a Lorem Ipsum passage, and going through
-                    the cites of the word in classical literature, discovered
-                    the undoubtable source.
+                    Virginia.
                   </p>
+                </div>
+                <div class="flex mt-3">
+                  <img class="h-10 w-10 rounded-full mr-2 object-cover" src="https://randomuser.me/api/portraits/men/82.jpg" alt="author">
+                  <div>
+                    <p class="font-semibold text-gray-400 text-sm">Wrine Britley</p>
+                    <time class="text-gray-400 text-xs">5 February</time>
+                  </div>
                 </div>
               </div>
             </a>
@@ -192,7 +224,7 @@
               <li><a class="pagination-item" href="#">2</a></li>
               <li>
                 <a
-                  class="pagination-item text-blue-600 hover:bg-blue-100 hover:text-blue-600"
+                  class="pagination-item text-blue-600 hover:bg-blue-100 hover:text-blue-600 transition-all duration-300"
                   href="#"
                   >3</a
                 >
@@ -210,7 +242,7 @@
               Popular news
             </h5>
             <ul>
-              <li class="px-1 py-4 border-y border-white hover:border-gray-200">
+              <li class="px-1 py-4 border-y border-white hover:border-gray-200 transition-all duration-300">
                 <a class="flex items-center text-gray-600" href="#">
                   <span
                     class="inline-block w-4 h-4 mr-3 bg-gradient-to-tr from-green-500 to-green-700"
@@ -219,7 +251,7 @@
                   <span class="text-gray-500 ml-auto">23 articles</span>
                 </a>
               </li>
-              <li class="px-1 py-4 border-y border-white hover:border-gray-200">
+              <li class="px-1 py-4 border-y border-white hover:border-gray-200 transition-all duration-300">
                 <a class="flex items-center text-gray-600" href="#">
                   <span
                     class="inline-block w-4 h-4 mr-3 bg-gradient-to-tr from-orange-500 to-orange-700"
@@ -228,7 +260,7 @@
                   <span class="text-gray-500 ml-auto">20 articles</span>
                 </a>
               </li>
-              <li class="px-1 py-4 border-y border-white hover:border-gray-200">
+              <li class="px-1 py-4 border-y border-white hover:border-gray-200 transition-all duration-300">
                 <a class="flex items-center text-gray-600" href="#">
                   <span
                     class="inline-block w-4 h-4 mr-3 bg-gradient-to-tr from-red-500 to-red-700"
@@ -237,7 +269,7 @@
                   <span class="text-gray-500 ml-auto">15 articles</span>
                 </a>
               </li>
-              <li class="px-1 py-4 border-y border-white hover:border-gray-200">
+              <li class="px-1 py-4 border-y border-white hover:border-gray-200 transition-all duration-300">
                 <a class="flex items-center text-gray-600" href="#">
                   <span
                     class="inline-block w-4 h-4 mr-3 bg-gradient-to-tr from-blue-500 to-blue-700"
@@ -260,10 +292,10 @@
               <input
                 placeholder="your email adress"
                 type="email"
-                class="text-gray-700 bg-gray-100 p-2 w-full border rounded-t hover:border-gray-600"
+                class="text-gray-700 bg-gray-100 p-2 w-full border rounded-t hover:border-gray-600 transition-all duration-300"
               />
               <button
-                class="px-4 py-2 bg-indigo-600 text-white rounded-b w-full hover:bg-indigo-800"
+                class="px-4 py-2 bg-indigo-600 text-white rounded-b w-full hover:bg-indigo-800 transition-all duration-300"
               >
                 Subscribe
               </button>
