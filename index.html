@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="/public/style.css" />
     <title>TailwindCSS</title>
   </head>
-  <body>
+  <body class="bg-white dark:bg-slate-900">
     <div class="max-w-screen-xl mx-auto">
       <!--header-->
       <header class="px-2 border-b flex items-center justify-between h-14">
-        <a class="uppercase font-bold text-purple-800" href="">webDev</a>
+        <a class="dark:text-purple-500 uppercase font-bold text-purple-800" href="">webDev</a>
         <nav class="hidden md:flex items-center">
           <ul class="text-gray-500 font-semibold inline-flex items-center">
             <li><a class="header-link" href="#">Home</a></li>
@@ -43,7 +43,7 @@
       <!--breadcrumbs-->
       <div class="px-2 flex items-center">
         <div class="py-4 overflow-auto whitespace-nowrap flex items-center">
-          <a class="text-gray-600 hover:text-gray-900 transition-all duration-300" href="#">
+          <a class="dark:text-slate-400 text-gray-600 hover:text-gray-900 transition-all duration-300" href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -75,7 +75,7 @@
               />
             </svg>
           </span>
-          <a class="text-gray-600 hover:text-gray-900 transition-all duration-300" href="#">News</a>
+          <a class="dark:text-slate-400 text-gray-600 hover:text-gray-900 transition-all duration-300" href="#">News</a>
           <span class="mx-2 text-gray-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@
               />
             </svg>
           </span>
-          <a class="text-gray-600 hover:text-gray-900 transition-all duration-300" href="#">Tech</a>
+          <a class="dark:text-slate-400 text-gray-600 hover:text-gray-900 transition-all duration-300" href="#">Tech</a>
         </div>
       </div>
       <!--banners-->
@@ -144,10 +144,10 @@
               <img class="w-full h-48 lg:w-48 opacity-80 object-cover lg:mr-4" src="/public/images/03.jpg" alt="img">
               <div class="flex flex-col justify-between">
                 <div>
-                  <h3 class="mb-2 text-gray-700 font-bold text-2xl">
+                  <h3 class="dark:text-white mb-2 text-gray-700 font-bold text-2xl">
                     What is Lorem Ipsum?
                   </h3>
-                  <p class="text-gray-700">
+                  <p class="text-gray-700 dark:text-slate-400">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s, when an unknown
@@ -168,10 +168,10 @@
               <img class="w-full h-48 lg:w-48 opacity-80 object-cover lg:mr-4" src="/public/images/04.jpg" alt="img">
               <div class="flex flex-col justify-between">
                 <div>
-                  <h3 class="mb-2 text-gray-700 font-bold text-2xl">
+                  <h3 class="dark:text-white mb-2 text-gray-700 font-bold text-2xl">
                     Why do we use it?
                   </h3>
-                  <p class="text-gray-700">
+                  <p class="text-gray-700 dark:text-slate-400">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum is that it has a
@@ -193,10 +193,10 @@
               <img class="w-full h-48 lg:w-48 opacity-80 object-cover lg:mr-4" src="/public/images/05.jpg" alt="img">
               <div class="flex flex-col justify-between">
                 <div>
-                  <h3 class="mb-2 text-gray-700 font-bold text-2xl">
+                  <h3 class="dark:text-white mb-2 text-gray-700 font-bold text-2xl">
                     Where does it come from?
                   </h3>
-                  <p class="text-gray-700">
+                  <p class="text-gray-700 dark:text-slate-400">
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature
                     from 45 BC, making it over 2000 years old. Richard
@@ -238,44 +238,44 @@
         <div class="w-full lg:w-1/3 px-2 md:flex md:space-x-6 lg:block lg:space-x-0">
           <!--topics-->
           <div class="w-full md:w-1/2 lg:w-full mb-5">
-            <h5 class="font-bold text-lg uppercase text-gray-700 mb-5">
+            <h5 class="dark:text-white font-bold text-lg uppercase text-gray-700 mb-5">
               Popular news
             </h5>
             <ul>
               <li class="px-1 py-4 border-y border-white hover:border-gray-200 transition-all duration-300">
-                <a class="flex items-center text-gray-600" href="#">
+                <a class="dark:text-slate-400 flex items-center text-gray-600" href="#">
                   <span
                     class="inline-block w-4 h-4 mr-3 bg-gradient-to-tr from-green-500 to-green-700"
                   ></span>
                   Vue
-                  <span class="text-gray-500 ml-auto">23 articles</span>
+                  <span class="dark:text-slate-400 text-gray-500 ml-auto">23 articles</span>
                 </a>
               </li>
               <li class="px-1 py-4 border-y border-white hover:border-gray-200 transition-all duration-300">
-                <a class="flex items-center text-gray-600" href="#">
+                <a class="dark:text-slate-400 flex items-center text-gray-600" href="#">
                   <span
                     class="inline-block w-4 h-4 mr-3 bg-gradient-to-tr from-orange-500 to-orange-700"
                   ></span>
                   Svelte
-                  <span class="text-gray-500 ml-auto">20 articles</span>
+                  <span class="dark:text-slate-400 after:text-gray-500 ml-auto">20 articles</span>
                 </a>
               </li>
               <li class="px-1 py-4 border-y border-white hover:border-gray-200 transition-all duration-300">
-                <a class="flex items-center text-gray-600" href="#">
+                <a class="dark:text-slate-400 flex items-center text-gray-600" href="#">
                   <span
                     class="inline-block w-4 h-4 mr-3 bg-gradient-to-tr from-red-500 to-red-700"
                   ></span>
                   Angular
-                  <span class="text-gray-500 ml-auto">15 articles</span>
+                  <span class="dark:text-slate-400 text-gray-500 ml-auto">15 articles</span>
                 </a>
               </li>
               <li class="px-1 py-4 border-y border-white hover:border-gray-200 transition-all duration-300">
-                <a class="flex items-center text-gray-600" href="#">
+                <a class="dark:text-slate-400 flex items-center text-gray-600" href="#">
                   <span
                     class="inline-block w-4 h-4 mr-3 bg-gradient-to-tr from-blue-500 to-blue-700"
                   ></span>
                   React
-                  <span class="text-gray-500 ml-auto">7 articles</span>
+                  <span class="dark:text-slate-400 text-gray-500 ml-auto">7 articles</span>
                 </a>
               </li>
             </ul>
@@ -285,10 +285,10 @@
             <div class="border border-dotted md:hidden lg:block"></div>
             <!--subscribe-->
             <div class="my-5 md:my-0 lg:my-5">
-              <h5 class="font-bold text-lg uppercase text-gray-700 mb-5">
+              <h5 class="dark:text-white font-bold text-lg uppercase text-gray-700 mb-5">
                 Subscribe
               </h5>
-              <p class="text-gray-600 mb-4">Subscribe to our newsletter.</p>
+              <p class="dark:text-slate-400 text-gray-600 mb-4">Subscribe to our newsletter.</p>
               <input
                 placeholder="your email adress"
                 type="email"
@@ -309,14 +309,14 @@
       <footer class="border-t mt-10 py-10 px-2">
         <div class="md:flex">
           <div class="w-full mb-5 md:w-2/5">
-            <h6 class="font-semibold text-gray-700 mb-3">Company</h6>
+            <h6 class="dark:text-white font-semibold text-gray-700 mb-3">Company</h6>
             <ul class="text-gray-500 font-semibold">
               <li><a class="footer-link" href="#">Team</a></li>
               <li><a class="footer-link" href="#">About Us</a></li>
             </ul>
           </div>
           <div class="w-full mb-5 md:w-2/5">
-            <h6 class="font-semibold text-gray-700 mb-3">Content</h6>
+            <h6 class="dark:text-white font-semibold text-gray-700 mb-3">Content</h6>
             <ul class="text-gray-500 font-semibold">
               <li><a class="footer-link" href="#">Block</a></li>
               <li><a class="footer-link" href="#">Policy</a></li>
@@ -324,7 +324,7 @@
             </ul>
           </div>
           <div class="w-full md:w-1/5">
-            <h6 class="font-semibold text-gray-700 mb-3">Contact us</h6>
+            <h6 class="dark:text-white font-semibold text-gray-700 mb-3">Contact us</h6>
             <ul class="flex">
               <li>
                 <a class="footer-link" href="#">
